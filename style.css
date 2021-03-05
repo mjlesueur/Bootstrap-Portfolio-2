@@ -1,0 +1,53 @@
+body {
+    background: url(./images/chicago-343941__340.jpg);
+}
+
+.container,
+.col,
+.row {
+    background: whitesmoke;
+}
+
+.navbar {
+    position: fixed;
+    height: 100px;
+    z-index: 99;
+    margin: 0 0 100px;
+    overflow: auto;
+    background: whitesmoke;
+}
+
+.navbar-brand {
+    font-size:larger;
+}
+
+.header {
+    padding-left: 40px;
+}
+
+#profile-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    float: left;
+}
+
+
+li:nth-child(1,2,3) {
+    float: right;
+}
+
+
+li:last-child {
+    display: none;
+}
+
+#name-break {
+    margin-bottom: 10px;
+}
+
+.img-thumbnail {
+    max-height: 100px;
+}
+
